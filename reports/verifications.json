@@ -51,6 +51,24 @@
       },
       "result": "pending_review",
       "notes": "用户推荐：注视影视、搜TV啦、雪落影视，均归类为在线影视。注视影视提交说明为需梯子访问；三者后续需要补充访问速度、广告干扰、版权和安全风险验证。"
+    },
+    {
+      "id": "verify-20260613-cloud-search-batch",
+      "resource_ids": [
+        "kuakeso",
+        "zhuiju-us",
+        "gugeso",
+        "kuake-so-1"
+      ],
+      "checked_at": "2026-06-13",
+      "checked_by": "maintainer",
+      "method": "manual",
+      "environment": {
+        "region": "unspecified",
+        "network": "user submitted"
+      },
+      "result": "pending_review",
+      "notes": "用户推荐：夸克搜、追剧吧、谷哥搜，均归类为网盘资源搜索；同时将夸克点搜推荐指数调整为 5 星。后续需要补充访问速度、广告干扰、版权和链接安全验证。"
     }
   ]
 }

@@ -107,6 +107,39 @@
       "checked_at": "2026-06-13T13:57:23.293Z",
       "attempts": 2,
       "error": "fetch failed"
+    },
+    {
+      "resource_id": "kuakeso",
+      "url": "https://www.kuakeso.net/",
+      "status": "unknown",
+      "http_status": null,
+      "final_url": null,
+      "response_ms": null,
+      "checked_at": "2026-06-13T13:48:12.229Z",
+      "attempts": 0,
+      "error": "waiting for next GitHub Actions availability check"
+    },
+    {
+      "resource_id": "zhuiju-us",
+      "url": "https://www.zhuiju.us/",
+      "status": "unknown",
+      "http_status": null,
+      "final_url": null,
+      "response_ms": null,
+      "checked_at": "2026-06-13T13:48:12.229Z",
+      "attempts": 0,
+      "error": "waiting for next GitHub Actions availability check"
+    },
+    {
+      "resource_id": "gugeso",
+      "url": "https://www.gugeso.com/",
+      "status": "unknown",
+      "http_status": null,
+      "final_url": null,
+      "response_ms": null,
+      "checked_at": "2026-06-13T13:48:12.229Z",
+      "attempts": 0,
+      "error": "waiting for next GitHub Actions availability check"
     }
   ]
 }

@@ -321,11 +321,11 @@
         "regions": ["GLOBAL"]
       },
       "scores": {
-        "more": 3.0,
-        "speed": 3.0,
-        "clean": 3.0,
-        "stable": 3.0,
-        "ease": 3.0
+        "more": 5.0,
+        "speed": 5.0,
+        "clean": 5.0,
+        "stable": 5.0,
+        "ease": 5.0
       },
       "risks": {
         "copyright": "medium",
@@ -342,6 +342,120 @@
       "source": {
         "submitted_by": "@laoma2053",
         "added_at": "2026-06-06"
+      },
+      "featured": true
+    },
+    {
+      "id": "kuakeso",
+      "name": "夸克搜",
+      "url": "https://www.kuakeso.net/",
+      "category": "cloud_search",
+      "summary": "支持夸克网盘与百度网盘资源搜索的网盘搜索站。",
+      "summary_short": "夸克百度网盘搜索",
+      "tags": ["网盘搜索", "夸克网盘", "百度网盘", "中文"],
+      "access": {
+        "requires_login": false,
+        "free_level": "unknown",
+        "regions": ["GLOBAL"]
+      },
+      "scores": {
+        "more": 5.0,
+        "speed": 5.0,
+        "clean": 5.0,
+        "stable": 5.0,
+        "ease": 5.0
+      },
+      "risks": {
+        "copyright": "high",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "unknown"
+      },
+      "verification": {
+        "status": "caution",
+        "last_checked": "2026-06-13",
+        "method": "manual",
+        "notes": "用户推荐资源，支持夸克网盘与百度网盘搜索；内容来源、版权状态与链接安全性需要持续观察。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-06-13"
+      },
+      "featured": true
+    },
+    {
+      "id": "zhuiju-us",
+      "name": "追剧吧",
+      "url": "https://www.zhuiju.us/",
+      "category": "cloud_search",
+      "summary": "面向影视网盘资源的搜索站。",
+      "summary_short": "影视网盘资源搜索",
+      "tags": ["网盘搜索", "影视资源", "中文"],
+      "access": {
+        "requires_login": false,
+        "free_level": "unknown",
+        "regions": ["GLOBAL"]
+      },
+      "scores": {
+        "more": 5.0,
+        "speed": 5.0,
+        "clean": 5.0,
+        "stable": 5.0,
+        "ease": 5.0
+      },
+      "risks": {
+        "copyright": "high",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "unknown"
+      },
+      "verification": {
+        "status": "caution",
+        "last_checked": "2026-06-13",
+        "method": "manual",
+        "notes": "用户推荐资源，主打影视网盘资源搜索；内容来源、版权状态与链接安全性需要持续观察。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-06-13"
+      },
+      "featured": true
+    },
+    {
+      "id": "gugeso",
+      "name": "谷哥搜",
+      "url": "https://www.gugeso.com/",
+      "category": "cloud_search",
+      "summary": "支持多种网盘资源搜索的网盘搜索站。",
+      "summary_short": "支持9种网盘搜索",
+      "tags": ["网盘搜索", "多网盘", "中文"],
+      "access": {
+        "requires_login": false,
+        "free_level": "unknown",
+        "regions": ["GLOBAL"]
+      },
+      "scores": {
+        "more": 5.0,
+        "speed": 5.0,
+        "clean": 5.0,
+        "stable": 5.0,
+        "ease": 5.0
+      },
+      "risks": {
+        "copyright": "high",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "unknown"
+      },
+      "verification": {
+        "status": "caution",
+        "last_checked": "2026-06-13",
+        "method": "manual",
+        "notes": "用户推荐资源，支持多种网盘搜索；内容来源、版权状态与链接安全性需要持续观察。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-06-13"
       },
       "featured": true
     }
