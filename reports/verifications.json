@@ -100,6 +100,29 @@
       },
       "result": "pending_review",
       "notes": "根据截图信息收录：字幕库（https://zimuku.org，测评备注：字幕下载）、射手网(伪)（https://assrt.net，测评备注：字幕下载）和 SubHD（https://subhd.tv，测评备注：分享下载字幕平台），推荐指数均为 5 星。截图中的访问状态不作为本项目状态依据，后续需要补充访问速度、广告干扰、版权和下载安全验证。"
+    },
+    {
+      "id": "verify-20260619-online-video-second-batch",
+      "resource_ids": [
+        "duonao-video",
+        "haina-tv",
+        "tdgo",
+        "ai-movie",
+        "jpyy",
+        "tv-937",
+        "iyf",
+        "czzymovie",
+        "libvio"
+      ],
+      "checked_at": "2026-06-19",
+      "checked_by": "maintainer",
+      "method": "manual",
+      "environment": {
+        "region": "unspecified",
+        "network": "screenshot submitted"
+      },
+      "result": "pending_review",
+      "notes": "根据截图信息收录在线影视资源：多瑙影视、海纳TV、火车太堵、爱电影、金牌影视、937影视、爱壹帆、厂长资源和 LIBVIO。推荐指数、访问网址和简介按截图填写；截图中的访问状态不作为本项目状态依据，后续由 GitHub Actions 自动检测可用性。"
     }
   ]
 }

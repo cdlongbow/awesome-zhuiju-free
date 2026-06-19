@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-19T09:53:14.915Z",
+  "generated_at": null,
   "checker": {
     "environment": "github-actions",
     "timeout_ms": 15000,

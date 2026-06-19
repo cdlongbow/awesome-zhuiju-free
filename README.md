@@ -9,7 +9,7 @@ Awesome Zhuiju Free 是一个持续验证的免费追剧资源导航与影视工
 <p align="center">
   <a href="https://zhuiju.me"><img src="https://img.shields.io/badge/网站-zhuiju.me-2563eb?style=for-the-badge" alt="网站 zhuiju.me"></a>
   <!-- resource-count:start -->
-<a href="resources/resources.json"><img src="https://img.shields.io/badge/已收录-15_个资源-0f766e?style=for-the-badge" alt="已收录 15 个资源"></a>
+<a href="resources/resources.json"><img src="https://img.shields.io/badge/已收录-24_个资源-0f766e?style=for-the-badge" alt="已收录 24 个资源"></a>
 <!-- resource-count:end -->
   <a href="https://github.com/laoma2053/awesome-zhuiju-free/actions/workflows/check-availability.yml"><img src="https://img.shields.io/badge/可用性检测-每日执行-f59e0b?style=for-the-badge" alt="可用性检测 每日执行"></a>
 </p>
@@ -41,7 +41,7 @@ Awesome Zhuiju Free 是一个持续验证的免费追剧资源导航与影视工
 
 <!-- featured-resources:start -->
 <p align="center">
-  <a href="#在线影视"><img src="https://img.shields.io/badge/在线影视-4-2563eb?style=flat-square" alt="在线影视"></a>
+  <a href="#在线影视"><img src="https://img.shields.io/badge/在线影视-13-2563eb?style=flat-square" alt="在线影视"></a>
   <a href="#影视app"><img src="https://img.shields.io/badge/影视APP-0-0f766e?style=flat-square" alt="影视APP"></a>
   <a href="#网盘资源搜索"><img src="https://img.shields.io/badge/网盘搜索-4-64748b?style=flat-square" alt="网盘资源搜索"></a>
   <a href="#磁力-bt"><img src="https://img.shields.io/badge/磁力%26_BT-2-7c3aed?style=flat-square" alt="磁力& BT"></a>
@@ -76,11 +76,67 @@ Awesome Zhuiju Free 是一个持续验证的免费追剧资源导航与影视工
   </thead>
   <tbody>
     <tr>
+      <td><a href="https://www.duonaovod.com" target="_blank" rel="noopener noreferrer">多瑙影视</a></td>
+      <td>海外华人在线影院，需梯子</td>
+      <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
+      <td align="center" nowrap><!-- availability:duonao-video -->⚪&#8288;未&#8288;检测<!-- /availability:duonao-video --></td>
+      <td align="center"><!-- availability-date:duonao-video -->未检测<!-- /availability-date:duonao-video --></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.tdgo.shop" target="_blank" rel="noopener noreferrer">火车太堵</a></td>
+      <td>全网蓝光急速观影</td>
+      <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
+      <td align="center" nowrap><!-- availability:tdgo -->⚪&#8288;未&#8288;检测<!-- /availability:tdgo --></td>
+      <td align="center"><!-- availability-date:tdgo -->未检测<!-- /availability-date:tdgo --></td>
+    </tr>
+    <tr>
+      <td><a href="https://kuhh4jo.com" target="_blank" rel="noopener noreferrer">爱电影</a></td>
+      <td>最新热门电影/电视剧</td>
+      <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
+      <td align="center" nowrap><!-- availability:ai-movie -->⚪&#8288;未&#8288;检测<!-- /availability:ai-movie --></td>
+      <td align="center"><!-- availability-date:ai-movie -->未检测<!-- /availability-date:ai-movie --></td>
+    </tr>
+    <tr>
+      <td><a href="https://jpyy2.com" target="_blank" rel="noopener noreferrer">金牌影视</a></td>
+      <td>全网VIP资源</td>
+      <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
+      <td align="center" nowrap><!-- availability:jpyy -->⚪&#8288;未&#8288;检测<!-- /availability:jpyy --></td>
+      <td align="center"><!-- availability-date:jpyy -->未检测<!-- /availability-date:jpyy --></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.937tv.vip" target="_blank" rel="noopener noreferrer">937影视</a></td>
+      <td>看全网影视剧</td>
+      <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
+      <td align="center" nowrap><!-- availability:tv-937 -->⚪&#8288;未&#8288;检测<!-- /availability:tv-937 --></td>
+      <td align="center"><!-- availability-date:tv-937 -->未检测<!-- /availability-date:tv-937 --></td>
+    </tr>
+    <tr>
+      <td><a href="https://iyf.tv" target="_blank" rel="noopener noreferrer">爱壹帆</a></td>
+      <td>面向海外华人的影视站，需梯子</td>
+      <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
+      <td align="center" nowrap><!-- availability:iyf -->⚪&#8288;未&#8288;检测<!-- /availability:iyf --></td>
+      <td align="center"><!-- availability-date:iyf -->未检测<!-- /availability-date:iyf --></td>
+    </tr>
+    <tr>
       <td><a href="https://gaze.red/" target="_blank" rel="noopener noreferrer">注视影视</a></td>
       <td>国内海外影视剧资源，需梯子</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:gaze-red -->🟡&#8288;访问&#8288;受限<!-- /availability:gaze-red --></td>
       <td align="center"><!-- availability-date:gaze-red -->2026&#8209;06&#8209;19<!-- /availability-date:gaze-red --></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.hainatv.net" target="_blank" rel="noopener noreferrer">海纳TV</a></td>
+      <td>高清蓝光画质/实时更新</td>
+      <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
+      <td align="center" nowrap><!-- availability:haina-tv -->⚪&#8288;未&#8288;检测<!-- /availability:haina-tv --></td>
+      <td align="center"><!-- availability-date:haina-tv -->未检测<!-- /availability-date:haina-tv --></td>
+    </tr>
+    <tr>
+      <td><a href="https://libviobd.com" target="_blank" rel="noopener noreferrer">LIBVIO</a></td>
+      <td>海外影视的老牌网站，发布页www.libvio.app</td>
+      <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
+      <td align="center" nowrap><!-- availability:libvio -->⚪&#8288;未&#8288;检测<!-- /availability:libvio --></td>
+      <td align="center"><!-- availability-date:libvio -->未检测<!-- /availability-date:libvio --></td>
     </tr>
     <tr>
       <td><a href="https://www.novipnoad.cc/" target="_blank" rel="noopener noreferrer">No影视</a></td>
@@ -102,6 +158,13 @@ Awesome Zhuiju Free 是一个持续验证的免费追剧资源导航与影视工
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:xlys -->🟢&#8288;可&#8288;访问<!-- /availability:xlys --></td>
       <td align="center"><!-- availability-date:xlys -->2026&#8209;06&#8209;19<!-- /availability-date:xlys --></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.czzymovie.com" target="_blank" rel="noopener noreferrer">厂长资源</a></td>
+      <td>高清、秒播不卡顿，有广告</td>
+      <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟</td>
+      <td align="center" nowrap><!-- availability:czzymovie -->⚪&#8288;未&#8288;检测<!-- /availability:czzymovie --></td>
+      <td align="center"><!-- availability-date:czzymovie -->未检测<!-- /availability-date:czzymovie --></td>
     </tr>
   </tbody>
 </table>

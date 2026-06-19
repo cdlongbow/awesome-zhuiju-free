@@ -156,6 +156,348 @@
       "featured": true
     },
     {
+      "id": "duonao-video",
+      "name": "多瑙影视",
+      "url": "https://www.duonaovod.com",
+      "category": "online_video",
+      "summary": "海外华人在线影院，访问可能需要代理网络。",
+      "summary_short": "海外华人在线影院，需梯子",
+      "tags": ["在线影视", "海外华人", "需梯子"],
+      "access": {
+        "requires_login": false,
+        "free_level": "unknown",
+        "regions": ["GLOBAL"]
+      },
+      "scores": {
+        "more": 5.0,
+        "speed": 5.0,
+        "clean": 5.0,
+        "stable": 5.0,
+        "ease": 5.0
+      },
+      "risks": {
+        "copyright": "high",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "unknown"
+      },
+      "verification": {
+        "status": "caution",
+        "last_checked": "2026-06-19",
+        "method": "manual",
+        "notes": "根据截图信息收录：推荐指数 5 星，测评备注为海外华人在线影院，需梯子；截图状态不作为本项目状态依据，后续需要补充访问速度、广告干扰、版权和安全风险验证。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-06-19"
+      },
+      "featured": true
+    },
+    {
+      "id": "haina-tv",
+      "name": "海纳TV",
+      "url": "https://www.hainatv.net",
+      "category": "online_video",
+      "summary": "高清蓝光画质，实时更新。",
+      "summary_short": "高清蓝光画质/实时更新",
+      "tags": ["在线影视", "高清影视", "实时更新"],
+      "access": {
+        "requires_login": false,
+        "free_level": "unknown",
+        "regions": ["GLOBAL"]
+      },
+      "scores": {
+        "more": 4.0,
+        "speed": 4.0,
+        "clean": 4.0,
+        "stable": 4.0,
+        "ease": 4.0
+      },
+      "risks": {
+        "copyright": "high",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "unknown"
+      },
+      "verification": {
+        "status": "caution",
+        "last_checked": "2026-06-19",
+        "method": "manual",
+        "notes": "根据截图信息收录：推荐指数 4 星，测评备注为高清蓝光画质/实时更新；截图状态不作为本项目状态依据，后续需要补充访问速度、广告干扰、版权和安全风险验证。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-06-19"
+      },
+      "featured": true
+    },
+    {
+      "id": "tdgo",
+      "name": "火车太堵",
+      "url": "https://www.tdgo.shop",
+      "category": "online_video",
+      "summary": "全网蓝光急速观影。",
+      "summary_short": "全网蓝光急速观影",
+      "tags": ["在线影视", "蓝光", "中文"],
+      "access": {
+        "requires_login": false,
+        "free_level": "unknown",
+        "regions": ["GLOBAL"]
+      },
+      "scores": {
+        "more": 5.0,
+        "speed": 5.0,
+        "clean": 5.0,
+        "stable": 5.0,
+        "ease": 5.0
+      },
+      "risks": {
+        "copyright": "high",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "unknown"
+      },
+      "verification": {
+        "status": "caution",
+        "last_checked": "2026-06-19",
+        "method": "manual",
+        "notes": "根据截图信息收录：推荐指数 5 星，测评备注为全网蓝光急速观影；截图状态不作为本项目状态依据，后续需要补充访问速度、广告干扰、版权和安全风险验证。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-06-19"
+      },
+      "featured": true
+    },
+    {
+      "id": "ai-movie",
+      "name": "爱电影",
+      "url": "https://kuhh4jo.com",
+      "category": "online_video",
+      "summary": "最新热门电影/电视剧。",
+      "summary_short": "最新热门电影/电视剧",
+      "tags": ["在线影视", "电影", "电视剧"],
+      "access": {
+        "requires_login": false,
+        "free_level": "unknown",
+        "regions": ["GLOBAL"]
+      },
+      "scores": {
+        "more": 5.0,
+        "speed": 5.0,
+        "clean": 5.0,
+        "stable": 5.0,
+        "ease": 5.0
+      },
+      "risks": {
+        "copyright": "high",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "unknown"
+      },
+      "verification": {
+        "status": "caution",
+        "last_checked": "2026-06-19",
+        "method": "manual",
+        "notes": "根据截图信息收录：推荐指数 5 星，测评备注为最新热门电影/电视剧；截图状态不作为本项目状态依据，后续需要补充访问速度、广告干扰、版权和安全风险验证。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-06-19"
+      },
+      "featured": true
+    },
+    {
+      "id": "jpyy",
+      "name": "金牌影视",
+      "url": "https://jpyy2.com",
+      "category": "online_video",
+      "summary": "全网 VIP 资源。",
+      "summary_short": "全网VIP资源",
+      "tags": ["在线影视", "VIP资源", "中文"],
+      "access": {
+        "requires_login": false,
+        "free_level": "unknown",
+        "regions": ["GLOBAL"]
+      },
+      "scores": {
+        "more": 5.0,
+        "speed": 5.0,
+        "clean": 5.0,
+        "stable": 5.0,
+        "ease": 5.0
+      },
+      "risks": {
+        "copyright": "high",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "unknown"
+      },
+      "verification": {
+        "status": "caution",
+        "last_checked": "2026-06-19",
+        "method": "manual",
+        "notes": "根据截图信息收录：推荐指数 5 星，测评备注为全网VIP资源；截图状态不作为本项目状态依据，后续需要补充访问速度、广告干扰、版权和安全风险验证。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-06-19"
+      },
+      "featured": true
+    },
+    {
+      "id": "tv-937",
+      "name": "937影视",
+      "url": "https://www.937tv.vip",
+      "category": "online_video",
+      "summary": "看全网影视剧。",
+      "summary_short": "看全网影视剧",
+      "tags": ["在线影视", "影视剧", "中文"],
+      "access": {
+        "requires_login": false,
+        "free_level": "unknown",
+        "regions": ["GLOBAL"]
+      },
+      "scores": {
+        "more": 5.0,
+        "speed": 5.0,
+        "clean": 5.0,
+        "stable": 5.0,
+        "ease": 5.0
+      },
+      "risks": {
+        "copyright": "high",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "unknown"
+      },
+      "verification": {
+        "status": "caution",
+        "last_checked": "2026-06-19",
+        "method": "manual",
+        "notes": "根据截图信息收录：推荐指数 5 星，测评备注为看全网影视剧；截图状态不作为本项目状态依据，后续需要补充访问速度、广告干扰、版权和安全风险验证。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-06-19"
+      },
+      "featured": true
+    },
+    {
+      "id": "iyf",
+      "name": "爱壹帆",
+      "url": "https://iyf.tv",
+      "category": "online_video",
+      "summary": "面向海外华人的影视站，访问可能需要代理网络。",
+      "summary_short": "面向海外华人的影视站，需梯子",
+      "tags": ["在线影视", "海外华人", "需梯子"],
+      "access": {
+        "requires_login": false,
+        "free_level": "unknown",
+        "regions": ["GLOBAL"]
+      },
+      "scores": {
+        "more": 5.0,
+        "speed": 5.0,
+        "clean": 5.0,
+        "stable": 5.0,
+        "ease": 5.0
+      },
+      "risks": {
+        "copyright": "high",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "unknown"
+      },
+      "verification": {
+        "status": "caution",
+        "last_checked": "2026-06-19",
+        "method": "manual",
+        "notes": "根据截图信息收录：推荐指数 5 星，测评备注为面向海外华人的影视站，需梯子；截图状态不作为本项目状态依据，后续需要补充访问速度、广告干扰、版权和安全风险验证。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-06-19"
+      },
+      "featured": true
+    },
+    {
+      "id": "czzymovie",
+      "name": "厂长资源",
+      "url": "https://www.czzymovie.com",
+      "category": "online_video",
+      "summary": "高清、秒播不卡顿，有广告。",
+      "summary_short": "高清、秒播不卡顿，有广告",
+      "tags": ["在线影视", "高清影视", "有广告"],
+      "access": {
+        "requires_login": false,
+        "free_level": "unknown",
+        "regions": ["GLOBAL"]
+      },
+      "scores": {
+        "more": 3.0,
+        "speed": 3.0,
+        "clean": 3.0,
+        "stable": 3.0,
+        "ease": 3.0
+      },
+      "risks": {
+        "copyright": "high",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "unknown"
+      },
+      "verification": {
+        "status": "caution",
+        "last_checked": "2026-06-19",
+        "method": "manual",
+        "notes": "根据截图信息收录：推荐指数 3 星，测评备注为高清、秒播不卡顿，有广告；截图状态不作为本项目状态依据，后续需要补充访问速度、广告干扰、版权和安全风险验证。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-06-19"
+      },
+      "featured": true
+    },
+    {
+      "id": "libvio",
+      "name": "LIBVIO",
+      "url": "https://libviobd.com",
+      "category": "online_video",
+      "summary": "海外影视的老牌网站，发布页 www.libvio.app。",
+      "summary_short": "海外影视的老牌网站，发布页www.libvio.app",
+      "tags": ["在线影视", "海外影视", "发布页"],
+      "access": {
+        "requires_login": false,
+        "free_level": "unknown",
+        "regions": ["GLOBAL"]
+      },
+      "scores": {
+        "more": 4.0,
+        "speed": 4.0,
+        "clean": 4.0,
+        "stable": 4.0,
+        "ease": 4.0
+      },
+      "risks": {
+        "copyright": "high",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "unknown"
+      },
+      "verification": {
+        "status": "caution",
+        "last_checked": "2026-06-19",
+        "method": "manual",
+        "notes": "根据截图信息收录：推荐指数 4 星，测评备注为海外影视的老牌网站，发布页www.libvio.app；截图状态不作为本项目状态依据，后续需要补充访问速度、广告干扰、版权和安全风险验证。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-06-19"
+      },
+      "featured": true
+    },
+    {
       "id": "zimuku",
       "name": "字幕库",
       "url": "https://zimuku.org",
