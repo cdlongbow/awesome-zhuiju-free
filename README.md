@@ -371,7 +371,7 @@ _等待首条通过验证的精选资源。你可以 [推荐一个资源](https:
     <tr>
       <td nowrap><a href="https://github.com/iptv-org/iptv" target="_blank" rel="noopener noreferrer">iptv</a></td>
       <td nowrap>全球公开 IPTV 频道集合</td>
-      <td align="center" nowrap>125,682</td>
+      <td align="center" nowrap>125,685</td>
       <td align="center" nowrap>2026-06-19</td>
     </tr>
     <tr>
@@ -498,6 +498,16 @@ _等待首条通过验证的精选资源。你可以 [推荐一个资源](https:
 本项目仅提供资源索引、体验记录与风险提示，不对第三方网站的合法性、可用性或安全性作保证。访问第三方网站前，请遵守所在地法律、内容许可和服务条款，并自行判断风险。
 
 如果你是权利人，认为某条收录不当，请通过 [权利人请求模板](https://github.com/laoma2053/awesome-zhuiju-free/issues/new?template=rights-holder-request.yml) 联系。项目会公开记录请求与处理结果，但不会公开不必要的个人信息。
+
+## Star History
+
+<a href="https://www.star-history.com/#laoma2053/awesome-zhuiju-free&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=laoma2053/awesome-zhuiju-free&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=laoma2053/awesome-zhuiju-free&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=laoma2053/awesome-zhuiju-free&type=Date" />
+  </picture>
+</a>
 
 ---
 
