@@ -32,7 +32,8 @@ body:
         - 磁力与 BT
         - 字幕
         - TVBox
-        - IPTV 订阅源（影视仓配置地址）
+        - IPTV 订阅源
+        - 影视仓配置地址
         - 会员拼团
         - 开源项目
         - 其他
@@ -42,7 +43,7 @@ body:
     id: summary
     attributes:
       label: 资源简介
-      description: 它解决什么问题？是否需要登录、付费或安装软件？
+      description: 它解决什么问题？核心亮点功能是什么？字数在10-15字。
     validations:
       required: true
   - type: textarea

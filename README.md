@@ -4,7 +4,7 @@
 
 ### 追剧不踩坑，资源有人测
 
-Awesome Zhuiju Free 是一个持续验证的免费追剧资源导航与影视工具指南，收录在线影视、影视APP、网盘搜索、磁力与 BT、字幕、TVBox、IPTV 订阅源（影视仓配置地址）和会员拼团信息，并通过每日可用性检测、公开评分与风险提示，帮助追剧用户快速找到可靠资源、减少踩坑。
+Awesome Zhuiju Free 是一个持续验证的免费追剧资源导航与影视工具指南，收录在线影视、影视APP、网盘搜索、磁力与 BT、字幕、TVBox、IPTV 订阅源、影视仓配置地址和会员拼团信息，并通过每日可用性检测、公开评分与风险提示，帮助追剧用户快速找到可靠资源、减少踩坑。
 
 <p align="center">
   <a href="https://zhuiju.me"><img src="https://img.shields.io/badge/网站-zhuiju.me-2563eb?style=for-the-badge" alt="网站 zhuiju.me"></a>
@@ -35,6 +35,7 @@ Awesome Zhuiju Free 是一个持续验证的免费追剧资源导航与影视工
   <a href="#字幕资源"><img src="https://img.shields.io/badge/字幕资源-3-d97706?style=flat-square" alt="字幕资源"></a>
   <a href="#tvbox播放器"><img src="https://img.shields.io/badge/TVbox播放器-1-059669?style=flat-square" alt="TVbox播放器"></a>
   <a href="#订阅源"><img src="https://img.shields.io/badge/订阅源-1-db2777?style=flat-square" alt="订阅源"></a>
+  <a href="#影视仓配置地址"><img src="https://img.shields.io/badge/影视仓配置-0-0891b2?style=flat-square" alt="影视仓配置地址"></a>
   <a href="#会员拼团"><img src="https://img.shields.io/badge/会员拼团-0-64748b?style=flat-square" alt="会员拼团"></a>
   <a href="#开源项目"><img src="https://img.shields.io/badge/开源项目-7-0f172a?style=flat-square" alt="开源项目"></a>
 </p>
@@ -332,6 +333,12 @@ _等待首条通过验证的精选资源。你可以 [推荐一个资源](https:
 
 <p align="right"><a href="#精选资源">返回分类导航</a></p>
 
+### 影视仓配置地址
+
+_等待首条通过验证的精选资源。你可以 [推荐一个资源](https://github.com/laoma2053/awesome-zhuiju-free/issues/new?template=resource.yml)。_
+
+<p align="right"><a href="#精选资源">返回分类导航</a></p>
+
 ### 会员拼团
 
 _等待首条通过验证的精选资源。你可以 [推荐一个资源](https://github.com/laoma2053/awesome-zhuiju-free/issues/new?template=resource.yml)。_
@@ -441,7 +448,9 @@ _等待首条通过验证的精选资源。你可以 [推荐一个资源](https:
 | 找磁力入口 | 磁力& BT | 想找磁力、BT 或相关资源站 | 版权、链接安全与下载隐私风险 |
 | 找字幕 | 字幕资源 | 外语片、冷门片、版本匹配 | 字幕版本、上传来源与下载安全 |
 | 电视端播放 | TVbox播放器、订阅源 | 电视盒子、NAS、客厅播放 | 插件、订阅源与频道来源是否可信 |
+| 配置影视仓 | 影视仓配置地址 | 影视仓、TVBox 快速导入配置 | 配置来源、接口稳定性与安全风险 |
 | 省会员费用 | 会员拼团 | 正规会员合租或优惠信息 | 支付规则、账号归属和售后风险 |
+| 找开源工具 | 开源项目 | 自建、部署或二次开发影视工具 | 项目活跃度、维护情况和使用门槛 |
 
 ## 怎么看评分
 

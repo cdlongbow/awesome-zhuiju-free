@@ -13,7 +13,9 @@
 | `subtitles` | 字幕站、字幕组与字幕工具 |
 | `player` | TVbox播放器与客户端 |
 | `subscription` | IPTV、广播与其他订阅源 |
+| `tvbox_config` | 影视仓配置地址 |
 | `membership` | 会员拼团与省钱信息 |
+| `open_source` | 开源项目 |
 | `other` | 其他追剧相关资源 |
 
 ## 关键字段

@@ -83,11 +83,18 @@ jobs:
 
             const categoryMap = {
               "在线影视": "online_video",
+              "影视APP": "video_app",
+              "网盘搜索": "cloud_search",
               "网盘资源搜索": "cloud_search",
+              "磁力与 BT": "magnet_search",
               "磁力链接搜索": "magnet_search",
               "字幕": "subtitles",
+              "TVBox": "player",
               "TVbox播放器": "player",
+              "IPTV 订阅源": "subscription",
+              "IPTV 订阅源（影视仓配置地址）": "subscription",
               "订阅源": "subscription",
+              "影视仓配置地址": "tvbox_config",
               "会员拼团": "membership",
               "开源项目": "open_source",
               "其他": "other"

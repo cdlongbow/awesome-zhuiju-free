@@ -9,6 +9,7 @@ const categories = new Set([
   "subtitles",
   "player",
   "subscription",
+  "tvbox_config",
   "membership",
   "open_source",
   "other"
