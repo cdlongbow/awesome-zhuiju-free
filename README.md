@@ -354,11 +354,32 @@ _等待首条通过验证的精选资源。你可以 [推荐一个资源](https:
       <td align="center" nowrap><!-- availability-date:fan-tai-ying -->2026&#8209;07&#8209;04<!-- /availability-date:fan-tai-ying --></td>
     </tr>
     <tr>
+      <td nowrap><a href="https://www.小不点.com/" target="_blank" rel="noopener noreferrer">摸鱼儿</a></td>
+      <td><code>http:<wbr>/<wbr>/<wbr>摸鱼儿.<wbr>cc</code></td>
+      <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
+      <td align="center" nowrap><!-- availability:mo-yu-er -->🟢&#8288;可&#8288;访问<!-- /availability:mo-yu-er --></td>
+      <td align="center" nowrap><!-- availability-date:mo-yu-er -->2026&#8209;07&#8209;04<!-- /availability-date:mo-yu-er --></td>
+    </tr>
+    <tr>
+      <td nowrap><a href="https://www.王二小放牛娃.top" target="_blank" rel="noopener noreferrer">王二小</a></td>
+      <td><code>http:<wbr>/<wbr>/<wbr>new.<wbr>王二小放牛娃.<wbr>top</code></td>
+      <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
+      <td align="center" nowrap><!-- availability:wang-er-xiao -->🟢&#8288;可&#8288;访问<!-- /availability:wang-er-xiao --></td>
+      <td align="center" nowrap><!-- availability-date:wang-er-xiao -->2026&#8209;07&#8209;04<!-- /availability-date:wang-er-xiao --></td>
+    </tr>
+    <tr>
       <td nowrap>肥猫</td>
       <td><code>http:<wbr>/<wbr>/<wbr>肥猫.<wbr>net/<wbr></code></td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:fei-mao -->🟢&#8288;可&#8288;访问<!-- /availability:fei-mao --></td>
       <td align="center" nowrap><!-- availability-date:fei-mao -->2026&#8209;07&#8209;04<!-- /availability-date:fei-mao --></td>
+    </tr>
+    <tr>
+      <td nowrap>小盒子4K</td>
+      <td><code>http:<wbr>/<wbr>/<wbr>xhztv.<wbr>top/<wbr>4k.<wbr>json</code></td>
+      <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
+      <td align="center" nowrap><!-- availability:xiao-he-zi-4k -->🟢&#8288;可&#8288;访问<!-- /availability:xiao-he-zi-4k --></td>
+      <td align="center" nowrap><!-- availability-date:xiao-he-zi-4k -->2026&#8209;07&#8209;04<!-- /availability-date:xiao-he-zi-4k --></td>
     </tr>
     <tr>
       <td nowrap>老刘备</td>
@@ -380,27 +401,6 @@ _等待首条通过验证的精选资源。你可以 [推荐一个资源](https:
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:xiao-ma -->🟢&#8288;可&#8288;访问<!-- /availability:xiao-ma --></td>
       <td align="center" nowrap><!-- availability-date:xiao-ma -->2026&#8209;07&#8209;04<!-- /availability-date:xiao-ma --></td>
-    </tr>
-    <tr>
-      <td nowrap><a href="https://www.小不点.com/" target="_blank" rel="noopener noreferrer">摸鱼儿</a></td>
-      <td><code>http:<wbr>/<wbr>/<wbr>摸鱼儿.<wbr>cc</code></td>
-      <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
-      <td align="center" nowrap><!-- availability:mo-yu-er -->🟢&#8288;可&#8288;访问<!-- /availability:mo-yu-er --></td>
-      <td align="center" nowrap><!-- availability-date:mo-yu-er -->2026&#8209;07&#8209;04<!-- /availability-date:mo-yu-er --></td>
-    </tr>
-    <tr>
-      <td nowrap><a href="https://www.王二小放牛娃.top" target="_blank" rel="noopener noreferrer">王二小</a></td>
-      <td><code>http:<wbr>/<wbr>/<wbr>new.<wbr>王二小放牛娃.<wbr>top</code></td>
-      <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
-      <td align="center" nowrap><!-- availability:wang-er-xiao -->🟢&#8288;可&#8288;访问<!-- /availability:wang-er-xiao --></td>
-      <td align="center" nowrap><!-- availability-date:wang-er-xiao -->2026&#8209;07&#8209;04<!-- /availability-date:wang-er-xiao --></td>
-    </tr>
-    <tr>
-      <td nowrap>小盒子4K</td>
-      <td><code>http:<wbr>/<wbr>/<wbr>xhztv.<wbr>top/<wbr>4k.<wbr>json</code></td>
-      <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
-      <td align="center" nowrap><!-- availability:xiao-he-zi-4k -->🟢&#8288;可&#8288;访问<!-- /availability:xiao-he-zi-4k --></td>
-      <td align="center" nowrap><!-- availability-date:xiao-he-zi-4k -->2026&#8209;07&#8209;04<!-- /availability-date:xiao-he-zi-4k --></td>
     </tr>
     <tr>
       <td nowrap>小盒子单仓</td>

@@ -119,7 +119,37 @@ function manualFeaturedOrder(resource) {
     : Number.POSITIVE_INFINITY;
 }
 
-function sortFeaturedResources(resources) {
+function hasResourceNameLink(resource) {
+  return typeof resource.link_url === "string" && resource.link_url.length > 0;
+}
+
+function isMultiWarehouseResource(resource) {
+  return resource.name.includes("多仓");
+}
+
+function tvboxConfigSortGroup(resource) {
+  if (resource.id === "xiao-he-zi") return 4;
+  if (hasResourceNameLink(resource)) return 1;
+  if (isMultiWarehouseResource(resource)) return 3;
+  return 2;
+}
+
+function sortTvboxConfigResources(resources) {
+  return [...resources].sort((left, right) => {
+    return (
+      tvboxConfigSortGroup(left) - tvboxConfigSortGroup(right) ||
+      recommendationRating(right) - recommendationRating(left) ||
+      manualFeaturedOrder(left) - manualFeaturedOrder(right) ||
+      addedAtTime(right) - addedAtTime(left)
+    );
+  });
+}
+
+function sortFeaturedResources(resources, categoryId) {
+  if (categoryId === "tvbox_config") {
+    return sortTvboxConfigResources(resources);
+  }
+
   return [...resources].sort((left, right) => {
     return (
       manualFeaturedOrder(left) - manualFeaturedOrder(right) ||
@@ -206,7 +236,8 @@ ${rows}
 
 function categorySection(category, resources, availabilityById) {
   const categoryResources = sortFeaturedResources(
-    resources.filter((resource) => resource.category === category.id)
+    resources.filter((resource) => resource.category === category.id),
+    category.id
   );
   let content;
 
