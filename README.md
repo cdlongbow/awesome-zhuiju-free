@@ -9,7 +9,7 @@ Awesome Zhuiju Free 是一个持续验证的免费追剧资源导航与影视工
 <p align="center">
   <a href="https://zhuiju.me"><img src="https://img.shields.io/badge/网站-zhuiju.me-2563eb?style=for-the-badge" alt="网站 zhuiju.me"></a>
   <!-- resource-count:start -->
-<a href="resources/resources.json"><img src="https://img.shields.io/badge/已收录-40_个资源-0f766e?style=for-the-badge" alt="已收录 40 个资源"></a>
+<a href="resources/resources.json"><img src="https://img.shields.io/badge/已收录-39_个资源-0f766e?style=for-the-badge" alt="已收录 39 个资源"></a>
 <!-- resource-count:end -->
   <a href="https://github.com/laoma2053/awesome-zhuiju-free/actions/workflows/check-availability.yml"><img src="https://img.shields.io/badge/可用性检测-每日执行-f59e0b?style=for-the-badge" alt="可用性检测 每日执行"></a>
 </p>
@@ -35,7 +35,7 @@ Awesome Zhuiju Free 是一个持续验证的免费追剧资源导航与影视工
   <a href="#字幕资源"><img src="https://img.shields.io/badge/字幕资源-3-d97706?style=flat-square" alt="字幕资源"></a>
   <a href="#tvbox播放器"><img src="https://img.shields.io/badge/TVbox播放器-1-059669?style=flat-square" alt="TVbox播放器"></a>
   <a href="#订阅源"><img src="https://img.shields.io/badge/订阅源-1-db2777?style=flat-square" alt="订阅源"></a>
-  <a href="#影视仓配置地址"><img src="https://img.shields.io/badge/影视仓配置-9-0891b2?style=flat-square" alt="影视仓配置地址"></a>
+  <a href="#影视仓配置地址"><img src="https://img.shields.io/badge/影视仓配置-8-0891b2?style=flat-square" alt="影视仓配置地址"></a>
   <a href="#会员拼团"><img src="https://img.shields.io/badge/会员拼团-0-64748b?style=flat-square" alt="会员拼团"></a>
   <a href="#开源项目"><img src="https://img.shields.io/badge/开源项目-7-0f172a?style=flat-square" alt="开源项目"></a>
 </p>
@@ -366,13 +366,6 @@ _等待首条通过验证的精选资源。你可以 [推荐一个资源](https:
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:sao-ling -->🔴&#8288;无法&#8288;访问<!-- /availability:sao-ling --></td>
       <td align="center" nowrap><!-- availability-date:sao-ling -->2026&#8209;07&#8209;04<!-- /availability-date:sao-ling --></td>
-    </tr>
-    <tr>
-      <td nowrap>蜂蜜</td>
-      <td><code>https:<wbr>/<wbr>/<wbr>gh-<wbr>proxy.<wbr>com/<wbr>https:<wbr>/<wbr>/<wbr>raw.<wbr>githubusercontent.<wbr>com/<wbr>FongMi/<wbr>CatVodSpider/<wbr>main/<wbr>json/<wbr>demo.<wbr>json</code></td>
-      <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
-      <td align="center" nowrap><!-- availability:feng-mi -->🔴&#8288;无法&#8288;访问<!-- /availability:feng-mi --></td>
-      <td align="center" nowrap><!-- availability-date:feng-mi -->2026&#8209;07&#8209;04<!-- /availability-date:feng-mi --></td>
     </tr>
     <tr>
       <td nowrap>小米</td>

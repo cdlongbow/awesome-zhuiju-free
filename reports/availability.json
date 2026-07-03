@@ -241,17 +241,6 @@
       "error": "fetch failed"
     },
     {
-      "resource_id": "feng-mi",
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/demo.json",
-      "status": "unreachable",
-      "http_status": 404,
-      "final_url": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/demo.json",
-      "response_ms": 126,
-      "checked_at": "2026-07-03T16:56:32.201Z",
-      "attempts": 1,
-      "error": null
-    },
-    {
       "resource_id": "xiao-mi",
       "url": "https://3450.kstore.space/DEMO.json",
       "status": "unreachable",
