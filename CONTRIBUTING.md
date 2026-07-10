@@ -29,7 +29,7 @@
 4. 已知广告、跳转、隐私、版权与支付风险。
 5. 你的测试日期、地区和网络环境。
 
-维护者确认后，会通过管理员命令创建候选资源 PR。资源只有在 PR 审核并合并后，才会加入 `resources/resources.json`。详细管理流程见 [管理员手册](MAINTAINERS.md)。
+维护者人工审核后，会通过管理员命令发布资源。资源发布后会加入 `resources/resources.json`，并同步到 README 首页精选。详细管理流程见 [管理员手册](MAINTAINERS.md)。
 
 ## 评分规则
 

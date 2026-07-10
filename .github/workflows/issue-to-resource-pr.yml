@@ -1,4 +1,4 @@
-name: Create resource candidate PR
+name: Publish approved resource
 
 on:
   issue_comment:
@@ -8,29 +8,44 @@ on:
 permissions:
   contents: write
   issues: write
-  pull-requests: write
 
 jobs:
-  create-candidate-pr:
+  publish-approved-resource:
     if: github.event.issue.pull_request == null
     runs-on: ubuntu-latest
     steps:
-      - name: Create candidate resource pull request
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+
+      - name: Review resource issue
+        id: review
         uses: actions/github-script@v9
         with:
           script: |
+            const fs = require("node:fs");
+            const path = require("node:path");
+
             const owner = context.repo.owner;
             const repo = context.repo.repo;
             const issueNumber = context.issue.number;
             const actor = context.actor;
-            const command = (context.payload.comment?.body ?? "").trim().toLowerCase();
+            const commentBody = context.payload.comment?.body ?? "";
+            const parsedCommand = parseReviewCommand(commentBody);
             const approveCommands = new Set(["ok", "/ok", "approve", "/approve", "/approve-resource"]);
             const rejectCommands = new Set(["no", "/no", "reject", "/reject"]);
-            const isApprove = approveCommands.has(command);
-            const isReject = rejectCommands.has(command);
+            const isApprove = approveCommands.has(parsedCommand.command);
+            const isReject = rejectCommands.has(parsedCommand.command);
 
             if (!isApprove && !isReject) {
-              core.info("No resource review command found. Use `ok` to approve or `no` to reject.");
+              core.info("No resource review command found. Use `ok` to publish or `no` to reject.");
+              core.setOutput("action", "ignored");
               return;
             }
 
@@ -60,6 +75,7 @@ jobs:
                 state: "closed",
                 state_reason: "not_planned"
               });
+              core.setOutput("action", "rejected");
               return;
             }
 
@@ -103,11 +119,12 @@ jobs:
             const name = field("资源名称");
             const rawUrl = field("主页 URL");
             const categoryLabel = field("分类");
-            const summary = field("资源简介");
-            const risks = field("已知风险");
+            const userSummary = field("资源简介");
+            const riskText = field("已知风险");
             const checkedAtInput = field("测试日期与地区");
+            const category = categoryMap[categoryLabel];
 
-            if (!name || !rawUrl || !summary || !categoryMap[categoryLabel]) {
+            if (!name || !rawUrl || !userSummary || !category) {
               core.setFailed("Issue is missing a required resource form field.");
               return;
             }
@@ -119,8 +136,13 @@ jobs:
               core.setFailed("The submitted homepage URL is invalid.");
               return;
             }
-            if (url.protocol !== "https:") {
-              core.setFailed("Only HTTPS resource URLs can be added.");
+
+            if (!["http:", "https:"].includes(url.protocol)) {
+              core.setFailed("Only HTTP or HTTPS resource URLs can be added.");
+              return;
+            }
+            if (url.protocol !== "https:" && category !== "tvbox_config") {
+              core.setFailed("Only HTTPS resource URLs can be added outside tvbox_config.");
               return;
             }
 
@@ -137,188 +159,227 @@ jobs:
               .replace(/[^a-z0-9]+/g, "-")
               .replace(/^-|-$/g, "");
             const id = `${baseId || "resource"}-${issueNumber}`;
-            const branch = `candidate/issue-${issueNumber}-${id}`;
-
-            const repository = await github.rest.repos.get({ owner, repo });
-            const defaultBranch = repository.data.default_branch;
-            const existingPullRequests = await github.rest.pulls.list({
-              owner,
-              repo,
-              state: "open",
-              head: `${owner}:${branch}`
+            const resourcesPath = path.join(process.env.GITHUB_WORKSPACE, "resources", "resources.json");
+            const resourcesData = JSON.parse(fs.readFileSync(resourcesPath, "utf8"));
+            const normalizedUrl = url.toString();
+            const duplicate = resourcesData.resources.find((resource) => {
+              try {
+                return resource.id === id || new URL(resource.url).toString() === normalizedUrl;
+              } catch {
+                return resource.id === id || resource.url === normalizedUrl;
+              }
             });
-            if (existingPullRequests.data.length > 0) {
-              const pullRequest = existingPullRequests.data[0];
+            if (duplicate) {
               await github.rest.issues.createComment({
                 owner,
                 repo,
                 issue_number: issueNumber,
-                body: `候选资源 PR 已存在：#${pullRequest.number}。`
+                body: `资源已存在于正式数据库：\`${duplicate.id}\`。`
               });
+              await github.rest.issues.update({
+                owner,
+                repo,
+                issue_number: issueNumber,
+                state: "closed",
+                state_reason: "completed"
+              });
+              core.setOutput("action", "duplicate");
+              core.setOutput("resource_id", duplicate.id);
               return;
             }
 
-            const baseRef = await github.rest.git.getRef({
-              owner,
-              repo,
-              ref: `heads/${defaultBranch}`
-            });
-            const fileResponse = await github.rest.repos.getContent({
-              owner,
-              repo,
-              path: "resources/resources.json",
-              ref: defaultBranch
-            });
-            const file = fileResponse.data;
-            const resourcesData = JSON.parse(
-              Buffer.from(file.content, "base64").toString("utf8")
-            );
-
-            const normalizedUrl = url.toString();
-            const duplicate = resourcesData.resources.find(
-              (resource) =>
-                resource.id === id ||
-                new URL(resource.url).toString() === normalizedUrl
-            );
-            if (duplicate) {
-              core.setFailed(`Resource already exists as "${duplicate.id}".`);
-              return;
-            }
+            const maintainerContent = parseMaintainerContent(parsedCommand.note);
+            const maintainerSummary = maintainerContent.summary || maintainerContent.freeform;
+            const summary = [userSummary, maintainerSummary].filter(Boolean).join("\n");
+            const summaryShort = maintainerContent.summaryShort || makeSummaryShort(maintainerSummary || userSummary);
+            const riskDefaults = riskDefaultsFor(category);
+            const verificationNotes = [
+              `维护者 @${actor} 已通过 ok 确认收录。`,
+              checkedAtInput ? `测试信息：${checkedAtInput}。` : "",
+              maintainerSummary ? `维护者补充：${maintainerSummary}` : "",
+              `提交者风险说明：${riskText || "未提供"}`
+            ].filter(Boolean).join(" ");
 
             const resource = {
               id,
               name,
               url: normalizedUrl,
-              category: categoryMap[categoryLabel],
+              category,
               summary,
-              tags: [],
+              summary_short: summaryShort,
+              tags: categoryLabel && categoryLabel !== "其他" ? [categoryLabel] : [],
               access: {
                 requires_login: false,
                 free_level: "unknown",
                 regions: ["GLOBAL"]
               },
               scores: {
-                more: 3.0,
-                speed: 3.0,
-                clean: 3.0,
-                stable: 3.0,
-                ease: 3.0
+                more: 4.0,
+                speed: 4.0,
+                clean: 4.0,
+                stable: 4.0,
+                ease: 4.0
               },
-              risks: {
-                copyright: "unknown",
-                safety: "unknown",
-                privacy: "unknown",
-                payment: "unknown"
-              },
+              risks: riskDefaults,
               verification: {
-                status: "pending",
+                status: category === "open_source" ? "recommended" : "caution",
                 last_checked: submittedDate,
                 method: "manual",
-                notes: `候选资源，等待维护者验证。提交者风险说明：${risks || "未提供"}`
+                notes: verificationNotes
               },
               source: {
                 submitted_by: `@${issue.user.login}`,
                 added_at: today
               },
-              featured: false
+              featured: true
             };
 
             resourcesData.updated_at = today;
             resourcesData.resources.push(resource);
+            fs.writeFileSync(resourcesPath, `${JSON.stringify(resourcesData, null, 2)}\n`, "utf8");
 
-            let branchExists = false;
-            try {
-              await github.rest.git.getRef({
-                owner,
-                repo,
-                ref: `heads/${branch}`
-              });
-              branchExists = true;
-            } catch (error) {
-              if (error.status !== 404) {
-                throw error;
+            core.setOutput("action", "approved");
+            core.setOutput("resource_id", id);
+            core.setOutput("resource_name", name);
+
+            function parseReviewCommand(value) {
+              const trimmed = value.trim();
+              if (!trimmed) {
+                return { command: "", note: "" };
               }
+              const newlineIndex = trimmed.search(/\r?\n/);
+              const firstLine = newlineIndex === -1 ? trimmed : trimmed.slice(0, newlineIndex);
+              const rest = newlineIndex === -1 ? "" : trimmed.slice(newlineIndex).trim();
+              const commandMatch = firstLine.match(/^(\S+)(?:\s+([\s\S]*))?$/);
+              const command = (commandMatch?.[1] ?? "").toLowerCase();
+              const sameLineNote = commandMatch?.[2]?.trim() ?? "";
+              return {
+                command,
+                note: [sameLineNote, rest].filter(Boolean).join("\n").trim()
+              };
             }
 
-            if (!branchExists) {
-              await github.rest.git.createRef({
-                owner,
-                repo,
-                ref: `refs/heads/${branch}`,
-                sha: baseRef.data.object.sha
-              });
-            } else {
-              await github.rest.git.updateRef({
-                owner,
-                repo,
-                ref: `heads/${branch}`,
-                sha: baseRef.data.object.sha,
-                force: true
-              });
-            }
-            await github.rest.repos.createOrUpdateFileContents({
-              owner,
-              repo,
-              path: "resources/resources.json",
-              branch,
-              sha: file.sha,
-              message: `feat: add candidate resource ${name}`,
-              content: Buffer.from(
-                `${JSON.stringify(resourcesData, null, 2)}\n`,
-                "utf8"
-              ).toString("base64")
-            });
-
-            const pullRequestBody = [
-              `由 #${issueNumber} 自动生成。`,
-              "",
-              "合并前请维护者完成以下检查：",
-              "- 验证主页与核心功能",
-              "- 调整评分、风险、地区与登录要求",
-              "- 决定是否将 `featured` 改为 `true`",
-              "- 确认描述中立且没有单部影视作品链接",
-              "",
-              `Closes #${issueNumber}`
-            ].join("\n");
-
-            let pullRequest;
-            try {
-              pullRequest = await github.rest.pulls.create({
-                owner,
-                repo,
-                head: branch,
-                base: defaultBranch,
-                title: `[候选资源] ${name}`,
-                body: pullRequestBody,
-                draft: true
-              });
-            } catch (error) {
-              const manualUrl =
-                `https://github.com/${owner}/${repo}/compare/${defaultBranch}...${branch}?expand=1`;
-              if (
-                error.status === 403 &&
-                String(error.message).includes(
-                  "GitHub Actions is not permitted to create or approve pull requests"
-                )
-              ) {
-                core.setFailed(
-                  [
-                    "候选资源分支已创建，但仓库设置禁止 GitHub Actions 创建 Pull Request。",
-                    "",
-                    "请在仓库设置中开启：",
-                    "Settings → Actions → General → Workflow permissions → Allow GitHub Actions to create and approve pull requests",
-                    "",
-                    `也可以手动打开这个链接创建 PR：${manualUrl}`
-                  ].join("\n")
-                );
-                return;
+            function parseMaintainerContent(value) {
+              const text = value.trim();
+              if (!text) {
+                return { summary: "", summaryShort: "", freeform: "" };
               }
-              throw error;
+              const summary = labelledValue(text, ["简介", "介绍", "summary"]);
+              const summaryShort = labelledValue(text, ["短介", "短简介", "summary_short"]);
+              const labelledLinePattern =
+                /^\s*(简介|介绍|summary|短介|短简介|summary_short)\s*[:：]\s*/gim;
+              const freeform = labelledLinePattern.test(text) ? "" : text;
+              return { summary, summaryShort: makeSummaryShort(summaryShort), freeform };
             }
+
+            function labelledValue(text, labels) {
+              const escapedLabels = labels.map((label) => label.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|");
+              const pattern = new RegExp(
+                `(?:^|\\n)\\s*(?:${escapedLabels})\\s*[:：]\\s*([^\\n]+)`,
+                "i"
+              );
+              return pattern.exec(text)?.[1]?.trim() ?? "";
+            }
+
+            function normalizeText(value) {
+              return String(value)
+                .replace(/[`*_>#-]/g, "")
+                .replace(/\s+/g, " ")
+                .trim();
+            }
+
+            function makeSummaryShort(value) {
+              const normalized = normalizeText(value);
+              const chars = Array.from(normalized);
+              return chars.length > 40 ? chars.slice(0, 40).join("") : normalized;
+            }
+
+            function riskDefaultsFor(category) {
+              if (category === "open_source") {
+                return {
+                  copyright: "unknown",
+                  safety: "medium",
+                  privacy: "unknown",
+                  payment: "low"
+                };
+              }
+              if (category === "membership") {
+                return {
+                  copyright: "unknown",
+                  safety: "medium",
+                  privacy: "unknown",
+                  payment: "medium"
+                };
+              }
+              if (["online_video", "video_app", "player", "tvbox_config", "cloud_search", "magnet_search", "subscription"].includes(category)) {
+                return {
+                  copyright: "high",
+                  safety: "medium",
+                  privacy: "unknown",
+                  payment: "unknown"
+                };
+              }
+              return {
+                copyright: "unknown",
+                safety: "medium",
+                privacy: "unknown",
+                payment: "unknown"
+              };
+            }
+
+      - name: Sync featured resources to README
+        if: steps.review.outputs.action == 'approved'
+        run: node scripts/sync-readme.mjs
+
+      - name: Check featured resources
+        if: steps.review.outputs.action == 'approved'
+        run: node scripts/check-availability.mjs
+
+      - name: Validate data
+        if: steps.review.outputs.action == 'approved'
+        run: node scripts/validate-data.mjs
+
+      - name: Commit published resource
+        if: steps.review.outputs.action == 'approved'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md resources/resources.json reports/availability.json
+          git diff --cached --quiet && {
+            echo "No resource changes to commit."
+            exit 1
+          }
+          git commit -m "feat: publish resource from issue #${{ github.event.issue.number }}"
+          git push
+
+      - name: Close approved issue
+        if: steps.review.outputs.action == 'approved'
+        uses: actions/github-script@v9
+        env:
+          RESOURCE_ID: ${{ steps.review.outputs.resource_id }}
+          RESOURCE_NAME: ${{ steps.review.outputs.resource_name }}
+        with:
+          script: |
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const issueNumber = context.issue.number;
+            const resourceId = process.env.RESOURCE_ID;
+            const resourceName = process.env.RESOURCE_NAME;
 
             await github.rest.issues.createComment({
               owner,
               repo,
               issue_number: issueNumber,
-              body: `已创建候选资源草稿 PR：#${pullRequest.data.number}。资源尚未进入正式数据库，需维护者审核并合并。`
+              body: [
+                `已自动收录资源：\`${resourceName}\`（\`${resourceId}\`）。`,
+                "",
+                "资源已加入正式数据库，并已同步到 README 首页精选。"
+              ].join("\n")
+            });
+            await github.rest.issues.update({
+              owner,
+              repo,
+              issue_number: issueNumber,
+              state: "closed",
+              state_reason: "completed"
             });
