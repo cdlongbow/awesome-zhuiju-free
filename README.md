@@ -252,7 +252,7 @@
   <tbody>
     <tr>
       <td nowrap><a href="https://animeko.org/downloads/" target="_blank" rel="noopener noreferrer">Animeko</a></td>
-      <td nowrap>在线弹幕追番平台，多端支持</td>
+      <td nowrap>一站式在线弹幕追番平台</td>
       <td align="center" nowrap>Android、Windows、macOS、Linux、iOS</td>
       <td align="center" nowrap><!-- availability:animeko-app -->🟢&#8288;可&#8288;访问<!-- /availability:animeko-app --></td>
       <td align="center" nowrap><!-- availability-date:animeko-app -->2026&#8209;07&#8209;10<!-- /availability-date:animeko-app --></td>

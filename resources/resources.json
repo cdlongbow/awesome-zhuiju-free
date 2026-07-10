@@ -920,8 +920,8 @@
       "name": "Animeko",
       "url": "https://animeko.org/downloads/",
       "category": "video_app",
-      "summary": "一站式在线弹幕追番平台，支持 Android、Windows、macOS、Linux 和 iOS。",
-      "summary_short": "在线弹幕追番平台，多端支持",
+      "summary": "一站式在线弹幕追番平台。",
+      "summary_short": "一站式在线弹幕追番平台",
       "platforms": ["Android", "Windows", "macOS", "Linux", "iOS"],
       "tags": ["影视APP", "动漫", "追番", "弹幕", "Android", "Windows", "macOS", "Linux", "iOS"],
       "access": {
