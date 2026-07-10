@@ -720,9 +720,9 @@ _等待首条通过验证的精选资源。你可以 [推荐一个资源](https:
 
 <a href="https://www.star-history.com/?repos=laoma2053%2Fawesome-zhuiju-free&type=date&legend=top-left">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=laoma2053/awesome-zhuiju-free&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=laoma2053/awesome-zhuiju-free&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=laoma2053/awesome-zhuiju-free&type=date&legend=top-left" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=laoma2053/awesome-zhuiju-free&type=date&theme=dark&legend=top-left&sealed_token=ZT-XI2TPJ3ym7k9_CMN5xiQNkut6_sD4scyC4HAzQ3WDcp5M_qmsd-NItLbhXtbm81fmQ3-4rPHn3MkAweXIRAOnmqGXs6rR5iNBUDLw9Mj5SXU1ZXdRgg" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=laoma2053/awesome-zhuiju-free&type=date&legend=top-left&sealed_token=ZT-XI2TPJ3ym7k9_CMN5xiQNkut6_sD4scyC4HAzQ3WDcp5M_qmsd-NItLbhXtbm81fmQ3-4rPHn3MkAweXIRAOnmqGXs6rR5iNBUDLw9Mj5SXU1ZXdRgg" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=laoma2053/awesome-zhuiju-free&type=date&legend=top-left&sealed_token=ZT-XI2TPJ3ym7k9_CMN5xiQNkut6_sD4scyC4HAzQ3WDcp5M_qmsd-NItLbhXtbm81fmQ3-4rPHn3MkAweXIRAOnmqGXs6rR5iNBUDLw9Mj5SXU1ZXdRgg" />
  </picture>
 </a>
 
