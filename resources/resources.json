@@ -1994,6 +1994,51 @@
       "featured_order": 11
     },
     {
+      "id": "wu-ming",
+      "name": "无名",
+      "url": "https://6800.kstore.vip/fish.json",
+      "category": "tvbox_config",
+      "summary": "影视仓配置地址。",
+      "summary_short": "影视仓配置地址",
+      "tags": [
+        "影视仓",
+        "配置地址",
+        "TVBox"
+      ],
+      "access": {
+        "requires_login": false,
+        "free_level": "unknown",
+        "regions": [
+          "GLOBAL"
+        ]
+      },
+      "scores": {
+        "more": 4,
+        "speed": 4,
+        "clean": 4,
+        "stable": 4,
+        "ease": 4
+      },
+      "risks": {
+        "copyright": "high",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "unknown"
+      },
+      "verification": {
+        "status": "caution",
+        "last_checked": "2026-07-12",
+        "method": "manual",
+        "notes": "用户提交的影视仓配置地址，按 4 星收录；配置内容、接口稳定性、版权状态与安全风险需要用户自行判断，并由后续自动检测刷新可访问状态。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-07-12"
+      },
+      "featured": true,
+      "featured_order": 16
+    },
+    {
       "id": "xiao-he-zi-multi",
       "name": "小盒子多仓",
       "url": "http://xhztv.top/dc",

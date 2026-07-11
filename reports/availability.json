@@ -494,6 +494,17 @@
       "error": null
     },
     {
+      "resource_id": "wu-ming",
+      "url": "https://6800.kstore.vip/fish.json",
+      "status": "reachable",
+      "http_status": 200,
+      "final_url": "https://6800.kstore.vip/fish.json",
+      "response_ms": 347,
+      "checked_at": "2026-07-12T05:27:20.136+08:00",
+      "attempts": 1,
+      "error": null
+    },
+    {
       "resource_id": "xiao-he-zi-multi",
       "url": "http://xhztv.top/dc",
       "status": "reachable",
