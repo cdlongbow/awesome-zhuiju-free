@@ -53,7 +53,7 @@
   <a href="#磁力-bt"><img src="https://img.shields.io/badge/磁力%26_BT-9-7c3aed?style=flat-square" alt="磁力& BT"></a>
   <a href="#字幕资源"><img src="https://img.shields.io/badge/字幕资源-3-d97706?style=flat-square" alt="字幕资源"></a>
   <a href="#tvbox影视仓空壳"><img src="https://img.shields.io/badge/TVBox%2F影视仓空壳-2-059669?style=flat-square" alt="TVBox/影视仓空壳"></a>
-  <a href="#tvbox影视仓配置地址"><img src="https://img.shields.io/badge/TVBox%2F影视仓配置-15-0891b2?style=flat-square" alt="TVBox/影视仓配置地址"></a>
+  <a href="#tvbox影视仓配置地址"><img src="https://img.shields.io/badge/TVBox%2F影视仓接口-15-0891b2?style=flat-square" alt="TVBox/影视仓配置地址"></a>
   <a href="#订阅源"><img src="https://img.shields.io/badge/订阅源-1-db2777?style=flat-square" alt="订阅源"></a>
   <a href="#会员拼团"><img src="https://img.shields.io/badge/会员拼团-0-64748b?style=flat-square" alt="会员拼团"></a>
   <a href="#开源项目"><img src="https://img.shields.io/badge/开源项目-10-0f172a?style=flat-square" alt="开源项目"></a>
