@@ -1107,6 +1107,185 @@
       "featured": true
     },
     {
+      "id": "aikanbot",
+      "name": "爱看机器人",
+      "url": "https://www1.aikanbot.com",
+      "category": "online_video",
+      "summary": "全网热门的电影和电视剧榜单。",
+      "summary_short": "全网热门的电影和电视剧榜单",
+      "tags": [
+        "在线影视",
+        "电影",
+        "电视剧",
+        "榜单"
+      ],
+      "access": {
+        "requires_login": false,
+        "free_level": "unknown",
+        "regions": [
+          "GLOBAL"
+        ]
+      },
+      "scores": {
+        "more": 5,
+        "speed": 5,
+        "clean": 5,
+        "stable": 5,
+        "ease": 5
+      },
+      "risks": {
+        "copyright": "high",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "unknown"
+      },
+      "verification": {
+        "status": "caution",
+        "last_checked": "2026-07-18",
+        "method": "manual",
+        "notes": "根据用户补充收录：推荐指数 5 星，简介为全网热门的电影和电视剧榜单；提交状态不作为本项目状态依据，后续由自动检测刷新可访问状态。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-07-18"
+      },
+      "featured": true
+    },
+    {
+      "id": "duse91",
+      "name": "91毒舌",
+      "url": "https://www.duse0.com/",
+      "category": "online_video",
+      "summary": "最新Netflix新剧、4K高清。",
+      "summary_short": "最新Netflix新剧、4K高清",
+      "tags": [
+        "在线影视",
+        "Netflix",
+        "4K",
+        "高清影视"
+      ],
+      "access": {
+        "requires_login": false,
+        "free_level": "unknown",
+        "regions": [
+          "GLOBAL"
+        ]
+      },
+      "scores": {
+        "more": 5,
+        "speed": 5,
+        "clean": 5,
+        "stable": 5,
+        "ease": 5
+      },
+      "risks": {
+        "copyright": "high",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "unknown"
+      },
+      "verification": {
+        "status": "caution",
+        "last_checked": "2026-07-18",
+        "method": "manual",
+        "notes": "根据用户补充收录：推荐指数 5 星，简介为最新Netflix新剧、4K高清；提交状态不作为本项目状态依据，后续由自动检测刷新可访问状态。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-07-18"
+      },
+      "featured": true
+    },
+    {
+      "id": "guangsu-yingshi",
+      "name": "光速影视",
+      "url": "https://www.yingshiso.link/",
+      "category": "online_video",
+      "summary": "作为备选，纯净无广告。",
+      "summary_short": "作为备选，纯净无广告",
+      "tags": [
+        "在线影视",
+        "备选",
+        "无广告"
+      ],
+      "access": {
+        "requires_login": false,
+        "free_level": "unknown",
+        "regions": [
+          "GLOBAL"
+        ]
+      },
+      "scores": {
+        "more": 4,
+        "speed": 4,
+        "clean": 4,
+        "stable": 4,
+        "ease": 4
+      },
+      "risks": {
+        "copyright": "high",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "unknown"
+      },
+      "verification": {
+        "status": "caution",
+        "last_checked": "2026-07-18",
+        "method": "manual",
+        "notes": "根据用户补充收录：推荐指数 4 星，简介为作为备选，纯净无广告；提交状态不作为本项目状态依据，后续由自动检测刷新可访问状态。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-07-18"
+      },
+      "featured": true
+    },
+    {
+      "id": "haohaokan",
+      "name": "好好看",
+      "url": "https://www.hhkan2.com/",
+      "category": "online_video",
+      "summary": "最新Netflix新剧、4K高清。",
+      "summary_short": "最新Netflix新剧、4K高清",
+      "tags": [
+        "在线影视",
+        "Netflix",
+        "4K",
+        "高清影视"
+      ],
+      "access": {
+        "requires_login": false,
+        "free_level": "unknown",
+        "regions": [
+          "GLOBAL"
+        ]
+      },
+      "scores": {
+        "more": 5,
+        "speed": 5,
+        "clean": 5,
+        "stable": 5,
+        "ease": 5
+      },
+      "risks": {
+        "copyright": "high",
+        "safety": "medium",
+        "privacy": "unknown",
+        "payment": "unknown"
+      },
+      "verification": {
+        "status": "caution",
+        "last_checked": "2026-07-18",
+        "method": "manual",
+        "notes": "根据用户补充收录：推荐指数 5 星，简介为最新Netflix新剧、4K高清；提交状态不作为本项目状态依据，后续由自动检测刷新可访问状态。"
+      },
+      "source": {
+        "submitted_by": "maintainer",
+        "added_at": "2026-07-18"
+      },
+      "featured": true
+    },
+    {
       "id": "animeko-app",
       "name": "Animeko",
       "url": "https://animeko.org/downloads/",
