@@ -856,8 +856,8 @@ _等待首条通过验证的精选资源。你可以 [推荐一个资源](https:
 
 <div align="center">
 
-[推荐新资源](https://github.com/laoma2053/awesome-zhuiju-free/issues/new?template=resource.yml) · [报告失效](https://github.com/laoma2053/awesome-zhuiju-free/issues/new?template=broken-link.yml) · [贡献指南](CONTRIBUTING.md)
+[查看资源](#精选资源) · [推荐资源](https://github.com/laoma2053/awesome-zhuiju-free/issues/new?template=resource.yml) · [报告失效](https://github.com/laoma2053/awesome-zhuiju-free/issues/new?template=broken-link.yml)
 
-[![CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/) 数据与内容 CC BY 4.0，代码 [MIT](LICENSE)
+追剧不踩坑，资源有人测
 
 </div>
