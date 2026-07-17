@@ -245,7 +245,11 @@ function categorySection(category, resources, availabilityById) {
             thirdHeading: category.id === "video_app" ? "支持平台" : "推荐指数",
             thirdCell:
               category.id === "video_app"
-                ? (resource) => markdownCell((resource.platforms ?? []).join("、") || "未注明")
+                ? (resource) =>
+                    markdownCell(
+                      (resource.platforms ?? []).join(resource.platform_separator ?? "、") ||
+                        "未注明"
+                    )
                 : undefined,
             plainName: (resource) =>
               category.id === "tvbox_config" && !resource.link_url,

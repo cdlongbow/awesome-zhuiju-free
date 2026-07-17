@@ -294,7 +294,7 @@
         "network": "user submitted"
       },
       "result": "pending_review",
-      "notes": "根据用户补充收录 Kazumi（https://kazumi.app/download），简介为免费无广告/在线观看番剧，支持 Android、iOS、Windows、macOS 和 HarmonyOS；后续由 GitHub Actions 自动检测可用性，并持续观察应用安装来源、内容来源、版权状态与隐私安全。"
+      "notes": "根据用户补充收录 Kazumi（https://kazumi.app/download），简介为免费无广告/在线观看番剧，支持 Android / iOS / Windows / macOS / HarmonyOS；后续由 GitHub Actions 自动检测可用性，并持续观察应用安装来源、内容来源、版权状态与隐私安全。"
     },
     {
       "id": "verify-20260712-selenetv",
