@@ -372,6 +372,13 @@
   </thead>
   <tbody>
     <tr>
+      <td nowrap><a href="https://sidhub.cc/" target="_blank" rel="noopener noreferrer">SeedHub</a></td>
+      <td nowrap>影视&amp;动漫分享，页面纯净、无广告</td>
+      <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
+      <td align="center" nowrap><!-- availability:sidhub-cc-7 -->🟡&#8288;访问&#8288;受限<!-- /availability:sidhub-cc-7 --></td>
+      <td align="center" nowrap><!-- availability-date:sidhub-cc-7 -->2026&#8209;07&#8209;18<!-- /availability-date:sidhub-cc-7 --></td>
+    </tr>
+    <tr>
       <td nowrap><a href="https://pomo.mom" target="_blank" rel="noopener noreferrer">4K原盘</a></td>
       <td nowrap>4K原盘免费下载</td>
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
@@ -412,13 +419,6 @@
       <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
       <td align="center" nowrap><!-- availability:cilixiong -->🟢&#8288;可&#8288;访问<!-- /availability:cilixiong --></td>
       <td align="center" nowrap><!-- availability-date:cilixiong -->2026&#8209;07&#8209;18<!-- /availability-date:cilixiong --></td>
-    </tr>
-    <tr>
-      <td nowrap><a href="https://sidhub.cc/" target="_blank" rel="noopener noreferrer">SeedHub</a></td>
-      <td nowrap>五星</td>
-      <td align="center" nowrap>🌟&#8288;🌟&#8288;🌟&#8288;🌟</td>
-      <td align="center" nowrap><!-- availability:sidhub-cc-7 -->🟡&#8288;访问&#8288;受限<!-- /availability:sidhub-cc-7 --></td>
-      <td align="center" nowrap><!-- availability-date:sidhub-cc-7 -->2026&#8209;07&#8209;18<!-- /availability-date:sidhub-cc-7 --></td>
     </tr>
     <tr>
       <td nowrap><a href="https://www.dyg22.com" target="_blank" rel="noopener noreferrer">电影港网</a></td>

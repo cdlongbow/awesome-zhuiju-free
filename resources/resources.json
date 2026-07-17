@@ -3307,8 +3307,8 @@
       "name": "SeedHub",
       "url": "https://sidhub.cc/",
       "category": "magnet_search",
-      "summary": "有磁力和各个网盘资源\n五星",
-      "summary_short": "五星",
+      "summary": "影视&动漫分享，页面纯净、无广告。",
+      "summary_short": "影视&动漫分享，页面纯净、无广告",
       "tags": [
         "磁力与 BT"
       ],
@@ -3320,11 +3320,11 @@
         ]
       },
       "scores": {
-        "more": 4,
-        "speed": 4,
-        "clean": 4,
-        "stable": 4,
-        "ease": 4
+        "more": 5,
+        "speed": 5,
+        "clean": 5,
+        "stable": 5,
+        "ease": 5
       },
       "risks": {
         "copyright": "high",
@@ -3336,7 +3336,7 @@
         "status": "caution",
         "last_checked": "2026-07-18",
         "method": "manual",
-        "notes": "维护者 @laoma2053 已通过 ok 确认收录。 测试信息：2026-7-14 中国大陆。 维护者补充：五星 提交者风险说明：暂无"
+        "notes": "维护者 @laoma2053 已通过 ok 确认收录。 测试信息：2026-7-14 中国大陆。 维护者补充：影视&动漫分享，页面纯净、无广告；推荐指数 5 星。 提交者风险说明：暂无"
       },
       "source": {
         "submitted_by": "@LesliesCheung",
