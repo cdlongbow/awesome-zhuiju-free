@@ -57,16 +57,16 @@
 
 <!-- featured-resources:start -->
 <p align="center">
-  <a href="#在线影视"><img src="https://img.shields.io/badge/在线影视-25-2563eb?style=flat-square" alt="在线影视"></a>
-  <a href="#影视app"><img src="https://img.shields.io/badge/影视APP-3-0f766e?style=flat-square" alt="影视APP"></a>
-  <a href="#网盘资源搜索"><img src="https://img.shields.io/badge/网盘搜索-4-64748b?style=flat-square" alt="网盘资源搜索"></a>
-  <a href="#磁力-bt"><img src="https://img.shields.io/badge/磁力%26_BT-10-7c3aed?style=flat-square" alt="磁力& BT"></a>
-  <a href="#字幕资源"><img src="https://img.shields.io/badge/字幕资源-3-d97706?style=flat-square" alt="字幕资源"></a>
-  <a href="#tvbox影视仓空壳"><img src="https://img.shields.io/badge/TVBox%2F影视仓空壳-2-059669?style=flat-square" alt="TVBox/影视仓空壳"></a>
-  <a href="#tvbox影视仓配置地址"><img src="https://img.shields.io/badge/TVBox%2F影视仓接口-15-0891b2?style=flat-square" alt="TVBox/影视仓配置地址"></a>
-  <a href="#订阅源"><img src="https://img.shields.io/badge/订阅源-1-db2777?style=flat-square" alt="订阅源"></a>
-  <a href="#会员拼团"><img src="https://img.shields.io/badge/会员拼团-0-64748b?style=flat-square" alt="会员拼团"></a>
-  <a href="#开源项目"><img src="https://img.shields.io/badge/开源项目-10-0f172a?style=flat-square" alt="开源项目"></a>
+  <a href="#在线影视"><img src="https://img.shields.io/badge/在线影视-25-0A66C2?style=flat-square" alt="在线影视"></a>
+  <a href="#影视app"><img src="https://img.shields.io/badge/影视APP-3-00A98F?style=flat-square" alt="影视APP"></a>
+  <a href="#网盘资源搜索"><img src="https://img.shields.io/badge/网盘搜索-4-4285F4?style=flat-square" alt="网盘资源搜索"></a>
+  <a href="#磁力-bt"><img src="https://img.shields.io/badge/磁力%26_BT-10-F7B801?style=flat-square" alt="磁力& BT"></a>
+  <a href="#字幕资源"><img src="https://img.shields.io/badge/字幕资源-3-6F42C1?style=flat-square" alt="字幕资源"></a>
+  <a href="#tvbox影视仓空壳"><img src="https://img.shields.io/badge/TVBox%2F影视仓空壳-2-00B4D8?style=flat-square" alt="TVBox/影视仓空壳"></a>
+  <a href="#tvbox影视仓配置地址"><img src="https://img.shields.io/badge/TVBox%2F影视仓接口-15-38BDF8?style=flat-square" alt="TVBox/影视仓配置地址"></a>
+  <a href="#订阅源"><img src="https://img.shields.io/badge/订阅源-1-E91E63?style=flat-square" alt="订阅源"></a>
+  <a href="#会员拼团"><img src="https://img.shields.io/badge/会员拼团-0-F97316?style=flat-square" alt="会员拼团"></a>
+  <a href="#开源项目"><img src="https://img.shields.io/badge/开源项目-10-181717?style=flat-square" alt="开源项目"></a>
 </p>
 
 <details>
